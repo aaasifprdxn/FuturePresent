@@ -39,7 +39,7 @@ function video_post_type() {
 			'public' => true,
 			'has_archive' => true,
 			'menu_icon' => 'dashicons-format-video',
-			'supports' => array('title','editor','thumbnail' ),
+			'supports' => array('title','thumbnail' ),
 			'capability_type' => 'post',
       'taxonomies'  => array( 'category' ),
 			'menu_position' => 6,
